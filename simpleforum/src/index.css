@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #657c8b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* menubar */
+.menubar {
+  background-color: #2f3941;
+  border-bottom: 1px solid rgb(5, 5, 5);
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pageTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #DDDDDD;
+}
+
+#login-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+
+/* home */
+.home-container {
+  background-color: #657c8b;
+  display: flex;
+  justify-content: center;
+}
+
+.forum-list {
+  /* border: 1px solid white; */
+  /* box-shadow: 5px 5px rgb(0, 2, 18); */
+  margin: 10px;
+  flex-grow: 4;
+  border-radius: 5px;
+}
+
+/* search panel*/
+.search-container {
+  /* border-bottom: 1px solid white;
+  padding-bottom: 20px; */
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-search {
+  height: 10px;
+  border-style: double;
+  padding: 10px;
+  font-size: 14px;
+  background-color: black;
+  padding-right: 40px;
+  color: #fff;
+  width: 300px;
+  border-radius: 0px;
+}
+
+/* posts header */
+.posts-header {
+  padding: 10px;
+  border-radius: 2px;
+  border-style: groove;
+  border-color: #2f3941;
+  margin: 6px;
+  background-color: transparent;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+/* post */
+.post-container {
+  font-size: 14px;
+  color: white;
+  background-color: #2f3941;
+  height: 40px;
+  border-radius: 5px;
+  transition: height 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6px;
+  padding: 10px;
+}
+
+/* post details */
+.post-details-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topic-container {
+  background-color: rgb(189, 177, 179);
+  width: 95%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.topic-container>p:nth-child(1) {
+  width: 95%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.topic-container>p:nth-child(2) {
+  width: 95%;
+  padding-bottom: 10px;
+}
+
+/* message */
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.message-container>p:nth-child(1) {
+  width: 95%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+/* response */
+.response-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.response-container>textarea {
+  width: 100vh;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: #171717;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.response-button {
+  border: none;
+  color: white;
+  background-color: #171717;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

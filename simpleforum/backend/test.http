@@ -1,0 +1,7 @@
+POST http://localhost:4000/userRoutes/login
+Content-Type: application/json
+
+{
+    "name":"sujith",
+    "password":"sujith"
+}
